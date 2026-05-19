@@ -1,0 +1,45 @@
+{
+  "name": "ExpenseFlow Team",
+  "short_name": "ExpenseFlow",
+  "description": "Expense tracking and reembolso sheet generator",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0C1F3F",
+  "theme_color": "#0C1F3F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Expense",
+      "short_name": "Add",
+      "description": "Quickly add a new expense",
+      "url": "./index.html?add=true",
+      "icons": [
+        {
+          "src": "icons/shortcut-add.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
